@@ -1,0 +1,19 @@
+ 1x 12V DC-DC converter/booster module with enable
+ 1x ATMEGA32U4 Beetle board without parts on PCB bottom + headers
+    (No 3.3V pin and no extra GND pins on top row.)
+ 1x 3 mm Red LED
+ 1x 3 mm Yellow LED
+ 1x 3 mm Green LED
+ 5x 470 Ohm resistor  (1/8 Watt)
+ 2x 1K resistor (1/8 Watt)
+ 1x PM48XP P-channel MOSFET SOT23 package (optional)*
+ 1x 8 pin header (for programming connector)
+ 1x 2 pin header (for DC-DC converter)
+ 3x 1 pin header (for DC-DC converter)
+ 1x 8 pin IC socket
+ 1x 6x6mm tactile button
+ 
+*A MOSFET is recommended for a more powerful VCC. However if devices are only
+ programmed using the IC socket or in low power circuits (<20mA), the MOSFET 
+ can be left out. In that case VCC is powered by a GPIO pin by shorting
+ jumper J1. When using a MOSFET, Jumper J1 must be left open.
