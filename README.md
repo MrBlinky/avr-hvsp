@@ -2,8 +2,8 @@
 High voltage serial programmer for AVR Attiny devices
 
 * Easy to make programmer using 12V DC-DC converter with enable and ATMEGA32U4 Beetle board.
-* Programs AVR Attiny devices in high voltage mode to recover fuse settings and allows reset pin to be used as GPIO pin.
-* Works with Arduino IDE / AVRdude
+* Programs AVR Attiny devices in high voltage mode to recover fuse settings and allow reset pin to be used as GPIO pin.
+* Works with Arduino IDE / AVRdude.
 * No hassle with Windows driver utilities. Uses built in windows 10 driver or Arduino IDE driver.
 
 ![fully assembled image](https://raw.githubusercontent.com/MrBlinky/avr-hvsp/master/images/3-assembled-full.jpg)
