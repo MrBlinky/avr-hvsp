@@ -31,6 +31,8 @@ High voltage serial programmer for AVR Attiny devices
  the MOSFET can be left out. In that case VCC is powered by a GPIO pin
  by shorting jumper J1. When using a MOSFET, Jumper J1 must be left open.
 
+Revision 1.1 PCB can be ordered through [OSH Park](https://oshpark.com/shared_projects/vXxMrB8z)
+
 ## Assembly
 
 Assemble parts with low height first (programming header, MOSFET at bottom, resistors IC socket, button, LEDs and modules as last).
