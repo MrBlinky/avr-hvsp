@@ -50,6 +50,16 @@ Before soldering the module headers, place headers with long end into main PCB a
 Insert 8-pin DIP devices in to socket or wire-up device to programming header (check device datasheet for wiring).
 Upload a sketch using Arduino IDE or upload a hex file directly using AVRdude.
 
+LED status:
+* Red LED on: 12V VPP programming voltage on. Red LED off: Programming voltage off.
+* Yellow LED on: 5V VCC on. Yellow LED off: 5V VCC off.
+* Green LED on: Both programming and VCC are off. Green LED off: VPP and/or VCC on.
+
+Button control:
+
+Short press (< 500 ms): Toggle VCC on/off.
+long press (>= 500 ms): TO DO
+
 ### using Arduino IDE
 
 select **Arduino as ISP (ATmega32U4)** as **programmer** from **Tools** menu
